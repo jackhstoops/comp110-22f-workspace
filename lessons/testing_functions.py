@@ -14,7 +14,7 @@ def funct(num: int) -> int:
 
 print(funct(6))
 
-def funct(num: int) -> int:
-    return num +5
+# def funct(num: int) -> int:
+#     return num +5
 
 print(funct(6))
