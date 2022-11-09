@@ -14,6 +14,7 @@ def read_csv_rows(filename: str) -> list[dict[str, str]]:
     for row in csv_reader:
         result.append(row)
     file_handle.close()
+
     return result
 
 
@@ -52,6 +53,8 @@ def head(given: dict[str, list[str]], N: int) -> dict[str, list[str]]:
             result[column] = first_n_values
     return result
 
+def count(a_list: list[str]) -> dict[str, int]:
+    return count
 
 def select(given: dict[str, list[str]], column_names: list[str]) -> dict[str, list[str]]:
     """Produce new column-based table given only a specific subset of the original columns."""
